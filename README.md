@@ -8,4 +8,4 @@ This app uses a custom `ViewHolder` to support videos as well as images and to o
 
 The [`CustomViewHolder`](app/src/main/java/net/samvankooten/customviewholderdemo/CustomViewHolder.java) ensures there is an `ImageView` and a `VideoView` for every page, and chooses at binding time which `View` to show. Both of these views are in a `FrameLayout` along with a `TextView`, which provides the text overlay.
 
-A [custom `ViewHolderLoader`](app/src/main/java/net/samvankooten/customviewholderdemo/MainActivity.java#L66) (just a method reference, `CustomViewHolder::buildViewHolder`) is passed to the modified `StfalconImageViewer` to ensure `CustomViewHolder` is used.
+A [custom `ViewHolderLoader`](app/src/main/java/net/samvankooten/customviewholderdemo/MainActivity.java#L67) (just a method reference, `CustomViewHolder::buildViewHolder`) is passed to the modified `StfalconImageViewer` to ensure `CustomViewHolder` is used.
