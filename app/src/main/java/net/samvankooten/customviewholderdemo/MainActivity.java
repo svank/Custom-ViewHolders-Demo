@@ -61,6 +61,8 @@ package net.samvankooten.customviewholderdemo;
     
     private void startPopupViewer(int position, ImageView view) {
         viewer = new StfalconImageViewer.Builder<>(this, items,
+                // The image loader method is used for preparing images in the transition
+                // animation, and so should be provided even if not used in the custom ViewHolder
                 this::loadImage,
                 CustomViewHolder::buildViewHolder)
                 .withStartPosition(position)
