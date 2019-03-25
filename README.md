@@ -1,4 +1,4 @@
-# Custom-ViewHolders-Demo
+# Custom ViewHolders Demo
 
 This demos the changes made to [`StfalconImageViewer`](https://github.com/stfalcon-studio/StfalconImageViewer) made in [this fork](https://github.com/svank/StfalconImageViewer).
 
